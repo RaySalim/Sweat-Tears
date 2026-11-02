@@ -1,0 +1,424 @@
+body {
+    background: #0d0d0d;
+    color: #fff;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h1 {
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    font-size: 3rem;
+    color: #8b0000;
+    text-shadow: 2px 2px 0 #4a0000;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.btn {
+    display: inline-block;
+    background: #8b0000;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    border: 2px solid #4a0000;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background: #a00000;
+}
+
+.products {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.products h2 {
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    color: #8b0000;
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background: #1a1a1a;
+    border: 1px solid #8b0000;
+    padding: 1.5rem;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.product-card h3 {
+    color: #8b0000;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    margin-bottom: 0.5rem;
+}
+
+.desc {
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #8b0000;
+}
+
+.why {
+    padding: 3rem 1rem;
+    background: #151515;
+}
+
+.why h2 {
+    text-align: center;
+    color: #8b0000;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    margin-bottom: 2rem;
+}
+
+.features {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.features li {
+    padding: 1rem;
+    background: #1a1a1a;
+    border-left: 4px solid #8b0000;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+}
+
+.about, .contact {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.about h1, .contact h2 {
+    color: #8b0000;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.contact-info li {
+    padding: 0.75rem;
+    background: #1a1a1a;
+    border-left: 4px solid #8b0000;
+    margin-bottom: 0.75rem;
+    border-radius: 0 8px 8px 0;
+}
+
+.hero-img, .product-img, .about-img, .contact-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    border: 2px solid #8b0000;
+    border-radius: 8px;
+}
+
+.product-img {
+    max-width: 200px;
+    margin: 0 auto 1rem auto;
+}
+
+.add-to-cart {
+    background: #8b0000;
+    color: #fff;
+    border: 2px solid #4a0000;
+    padding: 0.6rem 1rem;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.add-to-cart:hover {
+    background: #a00000;
+}
+
+/* Floating Cart Button (Shein style) */
+.cart-float-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 60px;
+    height: 60px;
+    background: #8b0000;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+}
+
+.cart-float-btn:hover {
+    background: #a00000;
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #ff0000;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    min-width: 20px;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+}
+
+/* Cart Drawer (Shein style) */
+.cart-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    display: none;
+}
+
+.cart-drawer.open {
+    display: block;
+}
+
+.cart-drawer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 1;
+}
+
+.cart-drawer-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background: #1a1a1a;
+    border-left: 1px solid #8b0000;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+
+.cart-drawer.open .cart-drawer-panel {
+    transform: translateX(0);
+}
+
+.cart-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #8b0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-header h2 {
+    color: #8b0000;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.cart-close {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+}
+
+.cart-items {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+}
+
+.cart-empty {
+    text-align: center;
+    color: #888;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    padding: 2rem;
+}
+
+.cart-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #333;
+    align-items: center;
+}
+
+.cart-item-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 1px solid #8b0000;
+    border-radius: 6px;
+}
+
+.cart-item-info {
+    flex: 1;
+}
+
+.cart-item-name {
+    color: #fff;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.cart-item-price {
+    color: #8b0000;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    font-weight: bold;
+}
+
+.cart-item-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart-qty-btn {
+    background: #333;
+    color: #fff;
+    border: 1px solid #8b0000;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-qty-btn:hover {
+    background: #8b0000;
+}
+
+.cart-item-qty {
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+}
+
+.cart-remove {
+    background: none;
+    border: none;
+    color: #ff6b6b;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ff6b6b;
+    border-radius: 4px;
+}
+
+.cart-remove:hover {
+    background: #ff6b6b;
+    color: #fff;
+}
+
+.cart-footer {
+    padding: 1.5rem;
+    border-top: 1px solid #8b0000;
+    background: #151515;
+}
+
+.cart-subtotal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.subtotal-value {
+    color: #8b0000;
+    font-weight: bold;
+}
+
+.cart-checkout {
+    background: #8b0000;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cart-checkout:hover {
+    background: #a00000;
+}
