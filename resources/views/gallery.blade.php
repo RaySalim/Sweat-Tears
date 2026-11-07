@@ -15,7 +15,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Crimson+Soft" alt="Crimson Soft" class="product-card-image">
+                     <img src="{{ asset('images/product1.jpg') }}" alt="Crimson Soft" class="product-card-image"> 
                     <div class="product-card-content">
                         <h3>Crimson Soft</h3>
                         <p class="desc">Everyday tissue with a bold crimson finish.</p>
@@ -31,7 +31,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Midnight+Ultra" alt="Midnight Ultra" class="product-card-image">
+                       <img src="{{ asset('images/product2.jpg') }}" alt="Midnight Ultra" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Midnight Ultra</h3>
                         <p class="desc">Extra strong for the darkest nights.</p>
@@ -47,7 +47,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Coffin+Pack" alt="Coffin Pack" class="product-card-image">
+                   <img src="{{ asset('images/product3.jpg') }}" alt="Coffin Pack" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Coffin Pack</h3>
                         <p class="desc">Travel size for the wandering soul.</p>
@@ -63,7 +63,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Night+Veil" alt="Night Veil" class="product-card-image">
+                    <img src="{{ asset('images/product4.jpg') }}" alt="Night Veil" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Night Veil</h3>
                         <p class="desc">Ultra-thin, ultra-discreet.</p>
@@ -79,7 +79,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Eclipse+Box" alt="Eclipse Box" class="product-card-image">
+                    <img src="{{ asset('images/product5.jpg') }}" alt="Eclipse Box" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Eclipse Box</h3>
                         <p class="desc">Limited edition collector's pack.</p>
@@ -95,7 +95,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Shadow+Soft" alt="Shadow Soft" class="product-card-image">
+                    <img src="{{ asset('images/product6.jpg') }}" alt="CARD NAME" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Shadow Soft</h3>
                         <p class="desc">Whisper-soft for sensitive skin.</p>

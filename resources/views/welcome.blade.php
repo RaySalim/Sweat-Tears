@@ -26,7 +26,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Crimson+Soft" alt="Crimson Soft" class="product-card-image">
+                    <img src="{{ asset('images/product1.jpg') }}" alt="Crimson Soft" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Crimson Soft</h3>
                         <p class="desc">Everyday tissue for the night.</p>
@@ -42,7 +42,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0000/ff0000?text=Midnight+Ultra" alt="Midnight Ultra" class="product-card-image">
+                      <img src="{{ asset('images/product2.jpg') }}" alt="Midnight Ultra" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Midnight Ultra</h3>
                         <p class="desc">Extra strong for darkest nights.</p>
@@ -58,7 +58,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0000/ff0000?text=Coffin+Pack" alt="Coffin Pack" class="product-card-image">
+                     <img src="{{ asset('images/product3.jpg') }}" alt="Coffin Pack" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Coffin Pack</h3>
                         <p class="desc">Travel size for wandering souls.</p>
