@@ -4,7 +4,8 @@
 
 @section('content')
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero blood-border">
+        <div class="blood-drips"></div>
         <div class="hero-container">
             <h1>Blood <span style="color: var(--accent); text-shadow: 4px 4px 0 #000;">Sweat & Tears</span></h1>
             <p class="hero-tagline">Tissue as dark as your soul. Soft enough for a vampire's tears. Sealed in sunlight-proof coffins.</p>
@@ -17,7 +18,14 @@
         <div class="container">
             <h2 class="section-title">Featured <span style="color: var(--accent);">Products</span></h2>
             <div class="product-grid">
-                <article class="product-card" data-product="1" data-name="Crimson Soft" data-price="4.99" data-image="https://placehold.co/300x240/0a0a0a/8b0000?text=Crimson+Soft">
+                <article class="product-card blood-border gothic-frame" data-product="1" data-name="Crimson Soft" data-price="4.99" data-image="https://placehold.co/300x240/0a0a0a/8b0000?text=Crimson+Soft">
+                    <div class="blood-drips"></div>
+                    <div class="coffin-corners">
+                        <div class="coffin-corner tl"></div>
+                        <div class="coffin-corner tr"></div>
+                        <div class="coffin-corner bl"></div>
+                        <div class="coffin-corner br"></div>
+                    </div>
                     <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Crimson+Soft" alt="Crimson Soft" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Crimson Soft</h3>
@@ -26,7 +34,14 @@
                         <button class="add-to-cart">Add to Cart</button>
                     </div>
                 </article>
-                <article class="product-card" data-product="2" data-name="Midnight Ultra" data-price="6.99" data-image="https://placehold.co/300x240/0a0000/ff0000?text=Midnight+Ultra">
+                <article class="product-card blood-border gothic-frame" data-product="2" data-name="Midnight Ultra" data-price="6.99" data-image="https://placehold.co/300x240/0a0000/ff0000?text=Midnight+Ultra">
+                    <div class="blood-drips"></div>
+                    <div class="coffin-corners">
+                        <div class="coffin-corner tl"></div>
+                        <div class="coffin-corner tr"></div>
+                        <div class="coffin-corner bl"></div>
+                        <div class="coffin-corner br"></div>
+                    </div>
                     <img src="https://placehold.co/300x240/0a0000/ff0000?text=Midnight+Ultra" alt="Midnight Ultra" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Midnight Ultra</h3>
@@ -35,7 +50,14 @@
                         <button class="add-to-cart">Add to Cart</button>
                     </div>
                 </article>
-                <article class="product-card" data-product="3" data-name="Coffin Pack" data-price="3.49" data-image="https://placehold.co/300x240/0a0000/ff0000?text=Coffin+Pack">
+                <article class="product-card blood-border gothic-frame" data-product="3" data-name="Coffin Pack" data-price="3.49" data-image="https://placehold.co/300x240/0a0000/ff0000?text=Coffin+Pack">
+                    <div class="blood-drips"></div>
+                    <div class="coffin-corners">
+                        <div class="coffin-corner tl"></div>
+                        <div class="coffin-corner tr"></div>
+                        <div class="coffin-corner bl"></div>
+                        <div class="coffin-corner br"></div>
+                    </div>
                     <img src="https://placehold.co/300x240/0a0000/ff0000?text=Coffin+Pack" alt="Coffin Pack" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Coffin Pack</h3>
@@ -52,7 +74,14 @@
     </section>
 
     <!-- About Preview -->
-    <section class="about-section">
+    <section class="about-section blood-border gothic-frame">
+        <div class="blood-drips"></div>
+        <div class="coffin-corners">
+            <div class="coffin-corner tl"></div>
+            <div class="coffin-corner tr"></div>
+            <div class="coffin-corner bl"></div>
+            <div class="coffin-corner br"></div>
+        </div>
         <div class="container">
             <div class="about-grid">
                 <div class="about-content">

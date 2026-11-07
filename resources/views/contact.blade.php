@@ -3,7 +3,14 @@
 @section('title', 'Contact | Blood Sweat & Tears')
 
 @section('content')
-    <section class="contact-section">
+    <section class="contact-section blood-border gothic-frame">
+        <div class="blood-drips"></div>
+        <div class="coffin-corners">
+            <div class="coffin-corner tl"></div>
+            <div class="coffin-corner tr"></div>
+            <div class="coffin-corner bl"></div>
+            <div class="coffin-corner br"></div>
+        </div>
         <div class="container">
             <h1 style="font-size: 3rem; margin-bottom: 1rem; color: var(--accent); text-shadow: 3px 3px 0 #000; text-align: center;">Contact <span style="color: var(--accent);">Sweat & Tears</span></h1>
             <p style="font-size: 1.2rem; color: var(--text-muted); margin-bottom: 1.5rem; text-align: center;">
