@@ -79,7 +79,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Eclipse+Box" alt="Eclipse Box" class="product-card-image">
+                    <img src="{{ asset('images/product5.jpg') }}" alt="Eclipse Box" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Eclipse Box</h3>
                         <p class="desc">Limited edition collector's pack.</p>
@@ -95,7 +95,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Shadow+Soft" alt="Shadow Soft" class="product-card-image">
+                    <img src="{{ asset('images/product6.jpg') }}" alt="CARD NAME" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Shadow Soft</h3>
                         <p class="desc">Whisper-soft for sensitive skin.</p>
