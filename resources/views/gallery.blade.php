@@ -47,7 +47,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Coffin+Pack" alt="Coffin Pack" class="product-card-image">
+                   <img src="{{ asset('images/product3.jpg') }}" alt="Coffin Pack" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Coffin Pack</h3>
                         <p class="desc">Travel size for the wandering soul.</p>
@@ -63,7 +63,7 @@
                         <div class="coffin-corner bl"></div>
                         <div class="coffin-corner br"></div>
                     </div>
-                    <img src="https://placehold.co/300x240/0a0a0a/8b0000?text=Night+Veil" alt="Night Veil" class="product-card-image">
+                    <img src="{{ asset('images/product4.jpg') }}" alt="Night Veil" class="product-card-image">
                     <div class="product-card-content">
                         <h3>Night Veil</h3>
                         <p class="desc">Ultra-thin, ultra-discreet.</p>
