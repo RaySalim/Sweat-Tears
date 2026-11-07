@@ -8,7 +8,7 @@
   --bg-dark: #000000;
   --bg-card: #0a0a0a;
   --bg-hover: #141414;
-  --accent: #4a0000;
+  --bst-: #8b0000;
   --blood: #8b0000;
   --blood-glow: rgba(139, 0, 0, 0.8);
   --blood-dark: #4a0000;
@@ -1045,4 +1045,8 @@ img { max-width: 100%; height: auto; display: block; }
   .hero-tagline { font-size: 1.1rem; }
   .cart-drawer-panel { width: 100%; }
   .cart-float-btn { width: 60px; height: 60px; font-size: 2rem; bottom: 1.5rem; right: 1.5rem; }
+}
+:root {
+  --accent: #8b0000 !important;
+  --accentHighContrast: #8b0000 !important;
 }
